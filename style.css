@@ -30,9 +30,7 @@ hr {
     display: none;
 }
 
-i.fa-solid.fa-chevron-down {
-    display: none;
-}
+
 
 /* .fa-regular.fa-plus-large{
 display: none;
@@ -104,6 +102,11 @@ ul.navbar-nav {
 }
 i.fa-solid.fa-chevron-down {
     display: block;
+}
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+i.fa-solid.fa-chevron-down.mt-1.mx-2 {
+    display: none;
+}
 }
 @media screen and (min-width: 360px) and (max-width: 1200px) {
     ul.navbar-nav {
