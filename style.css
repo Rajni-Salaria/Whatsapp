@@ -1,0 +1,338 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* <!-- Header section Start --> */
+
+nav {
+    background-color: rgb(250, 241, 241);
+    opacity: 97%;
+}
+
+a.nav-link.text-dark :hover {
+    text-decoration: underline 3px solid #1bd665;
+}
+
+li.nav-item :hover {
+    text-decoration: underline 3px solid #1bd665;
+}
+
+p.mx-5.mt-3.whatsapp-web {
+    cursor: pointer;
+}
+
+p.mx-5.mt-3.whatsapp-web:hover {
+    text-decoration: underline 3px solid #1bd665;
+}
+
+hr {
+    display: none;
+}
+
+i.fa-solid.fa-chevron-down {
+    display: none;
+}
+
+/* .fa-regular.fa-plus-large{
+display: none;
+} */
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+    hr {
+        display: block;
+    }
+
+    .fa-regular.fa-plus-large {
+        display: block;
+    }
+}
+
+a.navbar-brand.text-center {
+    margin: 0px 40px;
+}
+
+li.nav-item.home {
+    display: none;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+
+    a.navbar-brand.text-center {
+        margin: 0 0 0 0px;
+    }
+
+    a.navbar-brand.text-center img {
+        width: 150px;
+        height: 35px;
+    }
+
+    /* button.navbar-toggler {
+        margin: -44px 0px 0 0;
+    } */
+    li.nav-item.home {
+        display: block;
+    }
+
+    ul.navbar-nav {
+        margin: 15px 0 0 0;
+    }
+
+    ul li {
+        width: 100%;
+        padding: 0px 0 0 0;
+        font-size: 32px;
+        background-color: white;
+    }
+
+    p.mx-5.mt-3.whatsapp-web {
+        display: none;
+    }
+
+
+    button.btn.btn-success.rounded-pill.px-5.fs-5.down.text-dark {
+        display: none;
+    }
+
+}
+
+div#navbarCollapse {
+    justify-content: space-evenly;
+}
+
+ul.navbar-nav {
+    margin: 0 105px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+    ul.navbar-nav {
+        position: relative;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin: 0px 0px;
+    }
+}
+
+button.btn.btn-light.rounded-pill.px-5.down.download {
+    background-color: #1bd665;
+}
+
+button.btn.btn-light.rounded-pill.px-5.down.download:hover {
+    background-color: black;
+    color: white;
+}
+
+/* <!-- Header section End--> */
+
+/* <!-- Banner section Start --> */
+.banner {
+
+    background-image: url("Assets/bigImage.png");
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: cover;
+    background-position: top;
+    border-radius: 20px;
+    width: 95%;
+    margin: 100px auto 20px auto;
+    /* margin: 0 23px; */
+    border-radius: 23px;
+    /* padding: 50px; */
+}
+
+
+
+.col-md-12.mt-5.pt-5.cup-messages {
+    text-align: end;
+}
+
+.col-md-6.privately.text-white {
+    margin: 130px 0 0 0;
+    padding: 0px 132px;
+}
+
+.col-md-6.images {
+    display: block;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+    .banner {
+
+        background-image: url("Assets/bigImage.png");
+        background-repeat: no-repeat;
+        height: 700px;
+        background-size: cover;
+        background-position: top;
+        border-radius: 20px;
+        width: 95%;
+        margin: 100px auto 20px auto;
+        /* margin: 0 23px; */
+        border-radius: 23px;
+        /* padding: 50px; */
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .col-md-6.privately.text-white {
+        margin: 30px 0 0 0;
+        padding: 0px 23px;
+    }
+
+    .col-md-6.images {
+        display: none;
+    }
+
+    img.message {
+        margin: 111px 0 0 0;
+    }
+
+}
+
+button.btn.btn-success.rounded-pill.px-5.fs-4.down {
+    background-color: #1bd665;
+    color: black;
+}
+
+button.btn.btn-success.rounded-pill.px-5.fs-4.down:hover {
+    background-color: black;
+    color: white;
+}
+
+h2.Message-privately {
+    font-size: 55px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+    h2.Message-privately {
+        font-size: 45px;
+
+    }
+}
+
+.col-md-12.data-charge {
+    text-align: end;
+}
+
+p.data-charge {
+    font-size: 14px;
+}
+
+/* <!-- Banner section End --> */
+
+/* <!-- FiveImages Section Start --> */
+.fiveimages {
+    padding: 32px;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+
+    .fiveimages {
+        display: none;
+        padding: 32px;
+        width: 100%;
+    }
+}
+
+.threeimages {
+    display: none;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+    .threeimages {
+        display: block;
+        width: 100%;
+        padding: 32px;
+    }
+}
+
+/* <!-- FiveImages Section End --> */
+
+
+/* <!-- private messaging and calling section start --> */
+h2.private {
+    padding: 30px 100px;
+    font-size: 44px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+    h2.private {
+        padding: 30px 10px;
+        font-size: 24px;
+    }
+}
+
+/* <!-- private messaging and calling section End --> */
+
+/* <!-- HolofiveImages Section Start --> */
+.holafiveimages {
+    padding: 32px;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+
+    .holafiveimages {
+        display: none;
+        padding: 32px;
+        max-width: 100%;
+    }
+}
+
+.holathreeimages {
+    display: none;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+    .holathreeimages {
+        display: block;
+        width: 100%;
+        padding: 32px;
+    }
+}
+
+/* <!-- HolofiveImages Section End --> */
+/* <!-- Calls And Mobiles Section Start --> */
+.col-md-6.calls {
+    margin: 130px 0 0 0;
+    padding: 0px 65px;
+}
+
+h2.voice {
+    font-size: 56px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+    .col-md-6.calls {
+        margin: 30px 0 0 0;
+        padding: 0 22px;
+    }
+
+    h2.voice {
+        font-size: 32px;
+    }
+}
+
+.col-md-6.mobile {
+    padding: 0px 100px;
+}
+
+.w {
+    text-decoration: underline 3px solid #1bd665;
+}
+
+a.w.text-dark.fs-4 {
+    font-weight: 500;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1200px) {
+    .col-md-6.mobile {
+        text-align: center;
+        padding: 0 36px;
+    }
+}
+
+/* <!-- Calls And Mobiles Section End --> */
