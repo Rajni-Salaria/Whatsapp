@@ -8,9 +8,8 @@
 
 nav {
     background-color: rgb(250, 241, 241);
-    opacity: 97%;
+    opacity: 99.8%;
 }
-
 a.nav-link.text-dark :hover {
     text-decoration: underline 3px solid #1bd665;
 }
@@ -103,7 +102,9 @@ div#navbarCollapse {
 ul.navbar-nav {
     margin: 0 105px;
 }
-
+i.fa-solid.fa-chevron-down {
+    display: block;
+}
 @media screen and (min-width: 360px) and (max-width: 1200px) {
     ul.navbar-nav {
         position: relative;
@@ -112,6 +113,7 @@ ul.navbar-nav {
         width: 100%;
         margin: 0px 0px;
     }
+  
 }
 
 button.btn.btn-light.rounded-pill.px-5.down.download {
