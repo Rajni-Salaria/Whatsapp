@@ -237,9 +237,7 @@ h2.Message-privately {
 p.data-charge {
     font-size: 14px;
 }
-p.data-charge {
-    margin: 0 37px 0 0;
-}
+
 /* <!-- Banner section End --> */
 
 /* <!-- FiveImages Section Start --> */
@@ -285,7 +283,7 @@ h2.private {
         font-family: inherit;
         font-weight: 500;
         padding: 30px 0px;
-        font-size: 22px;
+        font-size: 23px;
     }
 }
 
