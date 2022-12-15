@@ -196,7 +196,11 @@ button.btn.btn-success.rounded-pill.px-5.down.download:hover {
         border-radius: 23px;
         /* padding: 50px; */
     }
-
+    .col-md-12.mt-5.pt-5.cup-messages {
+        margin: 0 20px;
+        /* padding: 0 27px; */
+        text-align: end;
+    }
     img {
         width: 100%;
     }
